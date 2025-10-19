@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Happy Diwali</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio  id="diwaliAudio" loop>
+    <source src="happy_diwali.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+  <!-- <audio autoplay loop>
+  <source src="happy_diwali.mp3" type="audio/mpeg" />
+  Your browser does not support the audio element.
+</audio> -->
+
+
+  <div class="container">
+    <marquee direction="left" class="marq">
+    <h1 class="glow-text">शुभ दीपावली</h1> </marquee>
+        <marquee direction="left" class="marq">
+    <h1 class="glow-text">शुभ दीपावली</h1> </marquee>
+    <h2 class="glow-subtext"> 🪔May the festival of lights bring you joy, prosperity, and happiness!🪔</p>
+    <div class="diya" aria-label="Diya lamp decoration">
+      <div class="diya-base"></div>
+      <div class="flame"></div>
+      </div>
+      <div class="buttons">
+      <button id="surpriseButton">Click for Surprise</button>
+      <button id="soundToggle">Audio Wishing</button>
+    </div>
+    <p id="surpriseMessage"></p>
+  </div>
+   <div id="photoContainer" style="display: none; text-align: center;">
+    <!-- Image will be injected by JS -->
+  </div>
+    <!-- <script>
+    const surpriseButton = document.getElementById('surpriseButton');
+    surpriseButton.addEventListener('click', function() {
+      // Hide the full wishing content
+      document.getElementById('mainContainer').style.display = "none";
+      // Optionally change background, e.g. document.body.style.background = "#fff";
+      // Show Shri Ram's photo
+      const photoDiv = document.getElementById('photoContainer');
+      photoDiv.style.display = "block";
+      photoDiv.innerHTML = '<img src="shri-ram-ji.png" alt="Shri Ram" style="max-width:350px;width:95%;border-radius:16px;margin:60px auto 20px;box-shadow:0 8px 32px rgba(0,0,0,0.25);"><h2 style="color:#d89100;margin-top:18px;">[translate:जय श्री राम]</h2>';
+    });
+  </script> -->
+  
+
+  <script src="script.js"></script>
+<script src="fireworks.js"></script>
+</body>
+</html>
