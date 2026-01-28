@@ -2,7 +2,7 @@
 
 **Happy Diwali Wishing** is a festive web application that displays beautiful Diwali greetings with animations and music — perfect for sharing joyful vibes during the festival of lights! ✨🎇
 
-🌐 **Live Demo:**  
+🌐 **Live : https://shivyadav11.github.io/Happy-Diwali-Wishing/
 
 
 ---
